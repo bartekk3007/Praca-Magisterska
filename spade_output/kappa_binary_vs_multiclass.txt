@@ -1,0 +1,3 @@
+Rows=1180929
+Multiclass_Kappa=0.04234504725133292
+Binary_Kappa=nan

@@ -1,0 +1,4 @@
+Fleiss Kappa = 0.0423450473
+Frames = 1180929
+Judges = 12
+Categories = 7
