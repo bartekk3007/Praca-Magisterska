@@ -1,0 +1,28 @@
+1446 UR_XP neutral->sadness agreement=1/12
+
+
+====================
+GLOBAL SUMMARY
+====================
+
+RULE EVENTS: 1
+
+MEAN AGREEMENT: 8.33%
+
+BEFORE CHANGE
+Emotion active: 100.00%
+TOP2 when active: 100.00%
+Distance mean: 0.00127
+Distance std: 0.00000
+
+AFTER CHANGE
+Previous emotion active: 100.00%
+TOP2 when active: 100.00%
+Distance mean: 0.00038
+
+BEFORE active not TOP2 cases: 0
+AFTER active not TOP2 cases: 0
+
+BEFORE BAD CASES
+
+AFTER BAD CASES

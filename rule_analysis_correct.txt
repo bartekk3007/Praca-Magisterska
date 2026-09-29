@@ -1,0 +1,26 @@
+RULE EVENTS
+0
+
+========================
+DETECTED RULE CAMERA-SYSTEM
+========================
+BEFORE active: 0.00%
+BEFORE TOP2: 0.00%
+
+AFTER
+AFTER active: 0.00%
+AFTER TOP2: 0.00%
+
+
+========================
+HIDDEN RULE POSSIBILITY OTHER CAMERA-SYSTEM
+========================
+BEFORE possible: 0.00%
+BEFORE TOP2: 0.00%
+
+AFTER
+AFTER possible: 0.00%
+AFTER TOP2: 0.00%
+
+
+DETAILS

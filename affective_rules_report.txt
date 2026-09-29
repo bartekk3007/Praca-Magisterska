@@ -1,0 +1,176 @@
+
+============================================================
+RULE (5, 6)
+TOTAL DETECTIONS: 254
+AGREEMENT OTHER SYSTEMS: 0.00%
+
+BEFORE CHANGE
+above threshold: 254 (100.00%)
+TOP2: 254
+mean distance TOP2: 0.00183
+ABOVE but NOT TOP2: 0
+
+AFTER CHANGE
+above threshold: 254 (100.00%)
+TOP2: 254
+mean distance TOP2: 0.00194
+ABOVE but NOT TOP2: 0
+
+============================================================
+RULE (6, 5)
+TOTAL DETECTIONS: 262
+AGREEMENT OTHER SYSTEMS: 64.89%
+
+BEFORE CHANGE
+above threshold: 262 (100.00%)
+TOP2: 262
+mean distance TOP2: 0.00186
+ABOVE but NOT TOP2: 0
+
+AFTER CHANGE
+above threshold: 262 (100.00%)
+TOP2: 262
+mean distance TOP2: 0.00197
+ABOVE but NOT TOP2: 0
+
+============================================================
+RULE (6, 3)
+TOTAL DETECTIONS: 302
+AGREEMENT OTHER SYSTEMS: 95.36%
+
+BEFORE CHANGE
+above threshold: 302 (100.00%)
+TOP2: 302
+mean distance TOP2: 0.00233
+ABOVE but NOT TOP2: 0
+
+AFTER CHANGE
+above threshold: 302 (100.00%)
+TOP2: 301
+mean distance TOP2: 0.00205
+ABOVE but NOT TOP2: 1
+{'camera': 'UR', 'system': 'XP', 'moment': 436493, 'emotion': 'neutral', 'value': 0.3477009236812591, 'max': 0.3503775596618652}
+
+============================================================
+RULE (3, 6)
+TOTAL DETECTIONS: 305
+AGREEMENT OTHER SYSTEMS: 0.00%
+
+BEFORE CHANGE
+above threshold: 305 (100.00%)
+TOP2: 304
+mean distance TOP2: 0.00214
+ABOVE but NOT TOP2: 1
+{'camera': 'DR', 'system': 'FR', 'moment': 763794, 'emotion': 'neutral', 'value': 0.280486524105072, 'max': 0.2813300490379333}
+
+AFTER CHANGE
+above threshold: 305 (100.00%)
+TOP2: 303
+mean distance TOP2: 0.00207
+ABOVE but NOT TOP2: 2
+{'camera': 'DL', 'system': 'LU', 'moment': 718880, 'emotion': 'happiness', 'value': 0.297737568616867, 'max': 0.3017106652259826}
+{'camera': 'DR', 'system': 'FR', 'moment': 763794, 'emotion': 'happiness', 'value': 0.2796063423156738, 'max': 0.2816260755062103}
+
+============================================================
+RULE (6, 1)
+TOTAL DETECTIONS: 563
+AGREEMENT OTHER SYSTEMS: 96.63%
+
+BEFORE CHANGE
+above threshold: 563 (100.00%)
+TOP2: 563
+mean distance TOP2: 0.00141
+ABOVE but NOT TOP2: 0
+
+AFTER CHANGE
+above threshold: 562 (99.82%)
+TOP2: 562
+mean distance TOP2: 0.00147
+ABOVE but NOT TOP2: 0
+
+============================================================
+RULE (1, 6)
+TOTAL DETECTIONS: 578
+AGREEMENT OTHER SYSTEMS: 0.00%
+
+BEFORE CHANGE
+above threshold: 578 (100.00%)
+TOP2: 578
+mean distance TOP2: 0.00137
+ABOVE but NOT TOP2: 0
+
+AFTER CHANGE
+above threshold: 578 (100.00%)
+TOP2: 578
+mean distance TOP2: 0.00135
+ABOVE but NOT TOP2: 0
+
+============================================================
+RULE (6, 4)
+TOTAL DETECTIONS: 698
+AGREEMENT OTHER SYSTEMS: 91.98%
+
+BEFORE CHANGE
+above threshold: 696 (99.71%)
+TOP2: 696
+mean distance TOP2: 0.00197
+ABOVE but NOT TOP2: 0
+
+AFTER CHANGE
+above threshold: 697 (99.86%)
+TOP2: 696
+mean distance TOP2: 0.00178
+ABOVE but NOT TOP2: 1
+{'camera': 'UL', 'system': 'XP', 'moment': 609895, 'emotion': 'neutral', 'value': 0.3553282022476196, 'max': 0.3583218455314636}
+
+============================================================
+RULE (4, 6)
+TOTAL DETECTIONS: 681
+AGREEMENT OTHER SYSTEMS: 79.30%
+
+BEFORE CHANGE
+above threshold: 680 (99.85%)
+TOP2: 680
+mean distance TOP2: 0.00171
+ABOVE but NOT TOP2: 0
+
+AFTER CHANGE
+above threshold: 681 (100.00%)
+TOP2: 681
+mean distance TOP2: 0.00182
+ABOVE but NOT TOP2: 0
+
+============================================================
+RULE (6, 2)
+TOTAL DETECTIONS: 145
+AGREEMENT OTHER SYSTEMS: 93.79%
+
+BEFORE CHANGE
+above threshold: 145 (100.00%)
+TOP2: 145
+mean distance TOP2: 0.00317
+ABOVE but NOT TOP2: 0
+
+AFTER CHANGE
+above threshold: 145 (100.00%)
+TOP2: 145
+mean distance TOP2: 0.00235
+ABOVE but NOT TOP2: 0
+
+============================================================
+RULE (2, 6)
+TOTAL DETECTIONS: 138
+AGREEMENT OTHER SYSTEMS: 0.00%
+
+BEFORE CHANGE
+above threshold: 137 (99.28%)
+TOP2: 136
+mean distance TOP2: 0.00254
+ABOVE but NOT TOP2: 1
+{'camera': 'UL', 'system': 'LU', 'moment': 637440, 'emotion': 'neutral', 'value': 0.2896227538585663, 'max': 0.2934606373310089}
+
+AFTER CHANGE
+above threshold: 138 (100.00%)
+TOP2: 138
+mean distance TOP2: 0.00278
+ABOVE but NOT TOP2: 0
