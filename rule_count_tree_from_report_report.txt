@@ -1,0 +1,73 @@
+DECISION TREE FROM EMOTION CHANGE REPORT
+
+Input report: emotion_change_report.txt
+Dataset rows: 3926
+Target classes: 0, 1, 2, 3_plus
+
+CLASS DISTRIBUTION
+  0: 1319
+  1: 1046
+  2: 829
+  3_plus: 732
+
+TRAIN / TEST
+  train rows: 2944
+  test rows: 982
+  stratified split: True
+  accuracy: 1.0000
+
+CONFUSION MATRIX
+rows=true, cols=pred, labels=[0,1,2,3_plus]
+[[330   0   0   0]
+ [  0 262   0   0]
+ [  0   0 207   0]
+ [  0   0   0 183]]
+
+CLASSIFICATION REPORT
+              precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00       330
+           1       1.00      1.00      1.00       262
+           2       1.00      1.00      1.00       207
+      3_plus       1.00      1.00      1.00       183
+
+    accuracy                           1.00       982
+   macro avg       1.00      1.00      1.00       982
+weighted avg       1.00      1.00      1.00       982
+
+FEATURE IMPORTANCE
+  hidden_both_active_pct: 0.666667
+  hidden_both_before_top2_pct: 0.333333
+  hidden_after_active_pct: 0.000000
+  hidden_after_top2_pct: 0.000000
+  hidden_both_before_dist_mean: 0.000000
+  from_emotion_id: 0.000000
+  to_emotion_id: 0.000000
+  agreement: 0.000000
+  dominant_rule_count: 0.000000
+  hidden_combo_count: 0.000000
+  hidden_before_active_pct: 0.000000
+  hidden_before_top2_pct: 0.000000
+  hidden_both_after_top2_pct: 0.000000
+  hidden_both_after_dist_mean: 0.000000
+
+TREE
+|--- hidden_both_active_pct <= 14.09
+|   |--- hidden_both_before_top2_pct <= -0.50
+|   |   |--- hidden_after_active_pct <= 4.55
+|   |   |   |--- class: 0
+|   |   |--- hidden_after_active_pct >  4.55
+|   |   |   |--- class: 0
+|   |--- hidden_both_before_top2_pct >  -0.50
+|   |   |--- hidden_both_before_dist_mean <= -0.50
+|   |   |   |--- class: 1
+|   |   |--- hidden_both_before_dist_mean >  -0.50
+|   |   |   |--- class: 1
+|--- hidden_both_active_pct >  14.09
+|   |--- hidden_both_active_pct <= 23.64
+|   |   |--- hidden_after_top2_pct <= 70.83
+|   |   |   |--- class: 2
+|   |   |--- hidden_after_top2_pct >  70.83
+|   |   |   |--- class: 2
+|   |--- hidden_both_active_pct >  23.64
+|   |   |--- class: 3

@@ -1,0 +1,61 @@
+DECISION TREE FOR RULE-COUNT CLASSES
+
+Input: emotion_values_P01_time_sorted.csv
+Rows loaded: 18000
+Threshold: 0.2
+Dataset rows: 1
+Target classes: 0, 1, 2, 3_plus
+
+CLASS DISTRIBUTION
+  0: 0
+  1: 1
+  2: 0
+  3_plus: 0
+
+TRAIN / TEST
+  train rows: 1
+  test rows: 1
+  stratified split: False
+  accuracy: 1.0000
+
+CONFUSION MATRIX
+rows=true, cols=pred, labels=[0,1,2,3_plus]
+[[0 0 0 0]
+ [0 1 0 0]
+ [0 0 0 0]
+ [0 0 0 0]]
+
+CLASSIFICATION REPORT
+              precision    recall  f1-score   support
+
+           0       0.00      0.00      0.00         0
+           1       1.00      1.00      1.00         1
+           2       0.00      0.00      0.00         0
+      3_plus       0.00      0.00      0.00         0
+
+    accuracy                           1.00         1
+   macro avg       0.25      0.25      0.25         1
+weighted avg       1.00      1.00      1.00         1
+
+FEATURE IMPORTANCE
+  from_emotion_id: 0.000000
+  to_emotion_id: 0.000000
+  hidden_both_before_dist_mean: 0.000000
+  hidden_both_after_top2_pct: 0.000000
+  hidden_both_before_top2_pct: 0.000000
+  hidden_both_active_pct: 0.000000
+  hidden_after_dist_std: 0.000000
+  hidden_after_dist_mean: 0.000000
+  hidden_after_top2_pct: 0.000000
+  hidden_after_active_pct: 0.000000
+  hidden_before_dist_std: 0.000000
+  hidden_before_dist_mean: 0.000000
+  hidden_before_top2_pct: 0.000000
+  hidden_before_active_pct: 0.000000
+  hidden_combo_count: 0.000000
+  dominant_rule_count: 0.000000
+  agreement: 0.000000
+  hidden_both_after_dist_mean: 0.000000
+
+TREE
+|--- class: 0

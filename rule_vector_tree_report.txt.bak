@@ -1,0 +1,91 @@
+DECISION TREE FROM rule_occurrence_vectors.csv
+
+Rows: 3923
+Features: 14
+Target: target_class
+Train: 2942, Test: 981
+Stratified split: True
+Accuracy: 0.6126
+
+CLASS DISTRIBUTION
+  1: 1319
+  2: 1042
+  3: 1562
+
+CONFUSION MATRIX
+labels=[np.int64(1), np.int64(2), np.int64(3)]
+[[228 102   0]
+ [ 85 154  21]
+ [ 22 150 219]]
+
+CLASSIFICATION REPORT
+              precision    recall  f1-score   support
+
+           1       0.68      0.69      0.69       330
+           2       0.38      0.59      0.46       260
+           3       0.91      0.56      0.69       391
+
+    accuracy                           0.61       981
+   macro avg       0.66      0.61      0.61       981
+weighted avg       0.69      0.61      0.63       981
+
+FEATURE IMPORTANCE
+  Wystapienie_12_UR_XP: 0.227547
+  Wystapienie_8_UL_LU: 0.224269
+  Wystapienie_3_DL_XP: 0.111190
+  Wystapienie_1_DL_FR: 0.102141
+  Wystapienie_9_UL_XP: 0.096795
+  Wystapienie_11_UR_LU: 0.077046
+  Wystapienie_5_DR_LU: 0.076851
+  Wystapienie_7_UL_FR: 0.059924
+  Wystapienie_10_UR_FR: 0.024238
+  Wystapienie_2_DL_LU: 0.000000
+  Wystapienie_6_DR_XP: 0.000000
+  Wystapienie_4_DR_FR: 0.000000
+  from_emotion_id: 0.000000
+  to_emotion_id: 0.000000
+
+TREE
+|--- Wystapienie_12_UR_XP <= 0.50
+|   |--- Wystapienie_8_UL_LU <= 0.50
+|   |   |--- Wystapienie_3_DL_XP <= 0.50
+|   |   |   |--- Wystapienie_1_DL_FR <= 0.50
+|   |   |   |   |--- class: 1
+|   |   |   |--- Wystapienie_1_DL_FR >  0.50
+|   |   |   |   |--- class: 2
+|   |   |--- Wystapienie_3_DL_XP >  0.50
+|   |   |   |--- Wystapienie_9_UL_XP <= 0.50
+|   |   |   |   |--- class: 2
+|   |   |   |--- Wystapienie_9_UL_XP >  0.50
+|   |   |   |   |--- class: 3
+|   |--- Wystapienie_8_UL_LU >  0.50
+|   |   |--- Wystapienie_11_UR_LU <= 0.50
+|   |   |   |--- Wystapienie_9_UL_XP <= 0.50
+|   |   |   |   |--- class: 1
+|   |   |   |--- Wystapienie_9_UL_XP >  0.50
+|   |   |   |   |--- class: 2
+|   |   |--- Wystapienie_11_UR_LU >  0.50
+|   |   |   |--- Wystapienie_9_UL_XP <= 0.50
+|   |   |   |   |--- class: 2
+|   |   |   |--- Wystapienie_9_UL_XP >  0.50
+|   |   |   |   |--- class: 3
+|--- Wystapienie_12_UR_XP >  0.50
+|   |--- Wystapienie_8_UL_LU <= 0.50
+|   |   |--- Wystapienie_7_UL_FR <= 0.50
+|   |   |   |--- Wystapienie_5_DR_LU <= 0.50
+|   |   |   |   |--- class: 2
+|   |   |   |--- Wystapienie_5_DR_LU >  0.50
+|   |   |   |   |--- class: 3
+|   |   |--- Wystapienie_7_UL_FR >  0.50
+|   |   |   |--- Wystapienie_10_UR_FR <= 0.50
+|   |   |   |   |--- class: 3
+|   |   |   |--- Wystapienie_10_UR_FR >  0.50
+|   |   |   |   |--- class: 3
+|   |--- Wystapienie_8_UL_LU >  0.50
+|   |   |--- Wystapienie_11_UR_LU <= 0.50
+|   |   |   |--- Wystapienie_9_UL_XP <= 0.50
+|   |   |   |   |--- class: 3
+|   |   |   |--- Wystapienie_9_UL_XP >  0.50
+|   |   |   |   |--- class: 3
+|   |   |--- Wystapienie_11_UR_LU >  0.50
+|   |   |   |--- class: 3

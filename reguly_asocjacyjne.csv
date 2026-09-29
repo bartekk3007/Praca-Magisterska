@@ -1,0 +1,65 @@
+reguly,target_class,support,confidence,lift,liczba_przypadkow
+"Wystapienie_8_UL_LU, Wystapienie_9_UL_XP, Wystapienie_11_UR_LU",3,0.0548,1.0,2.5115,215
+"Wystapienie_8_UL_LU, Wystapienie_11_UR_LU, Wystapienie_12_UR_XP",3,0.079,1.0,2.5115,310
+"Wystapienie_5_DR_LU, Wystapienie_12_UR_XP",3,0.0548,0.9535,2.3947,205
+"Wystapienie_8_UL_LU, Wystapienie_12_UR_XP",3,0.104,0.951,2.3884,388
+"Wystapienie_5_DR_LU, Wystapienie_11_UR_LU",3,0.0579,0.9471,2.3788,215
+"Wystapienie_11_UR_LU, Wystapienie_12_UR_XP",3,0.118,0.9352,2.3488,433
+"Wystapienie_9_UL_XP, Wystapienie_11_UR_LU",3,0.0823,0.9133,2.2938,295
+"Wystapienie_8_UL_LU, Wystapienie_9_UL_XP",3,0.0765,0.9067,2.2771,272
+"Wystapienie_9_UL_XP, Wystapienie_12_UR_XP",3,0.0895,0.8746,2.1967,307
+"Wystapienie_7_UL_FR, Wystapienie_12_UR_XP",3,0.0637,0.868,2.18,217
+"Wystapienie_3_DL_XP, Wystapienie_12_UR_XP",3,0.0732,0.8606,2.1615,247
+"Wystapienie_8_UL_LU, Wystapienie_11_UR_LU",3,0.1721,0.8533,2.1432,576
+"Wystapienie_10_UR_FR, Wystapienie_12_UR_XP",3,0.0823,0.7988,2.0061,258
+Wystapienie_6_DR_XP,3,0.0936,0.7929,1.9914,291
+"Wystapienie_7_UL_FR, Wystapienie_10_UR_FR",3,0.0831,0.7669,1.926,250
+Wystapienie_5_DR_LU,3,0.1402,0.7545,1.8951,415
+Wystapienie_8_UL_LU,3,0.2506,0.708,1.7783,696
+Wystapienie_3_DL_XP,3,0.1741,0.6735,1.6915,460
+"Wystapienie_1_DL_FR, Wystapienie_4_DR_FR",3,0.0502,0.6701,1.6828,132
+Wystapienie_11_UR_LU,3,0.2959,0.6649,1.67,772
+Wystapienie_12_UR_XP,3,0.3439,0.6494,1.6309,876
+Wystapienie_7_UL_FR,3,0.1537,0.6302,1.5827,380
+Wystapienie_4_DR_FR,3,0.1295,0.5728,1.4387,291
+Wystapienie_2_DL_LU,3,0.0808,0.5521,1.3865,175
+Wystapienie_10_UR_FR,3,0.1953,0.5431,1.364,416
+Wystapienie_1_DL_FR,3,0.1945,0.5347,1.343,408
+Wystapienie_9_UL_XP,3,0.2875,0.5275,1.3248,595
+"Wystapienie_1_DL_FR, Wystapienie_4_DR_FR",2,0.0502,0.3299,1.2422,65
+Wystapienie_1_DL_FR,2,0.1945,0.3119,1.1744,238
+Wystapienie_10_UR_FR,2,0.1953,0.295,1.1108,226
+Wystapienie_4_DR_FR,2,0.1295,0.2854,1.0746,145
+Wystapienie_7_UL_FR,2,0.1537,0.2703,1.0177,163
+Wystapienie_3_DL_XP,2,0.1741,0.246,0.9261,168
+Wystapienie_9_UL_XP,1,0.2875,0.2996,0.8912,338
+"Wystapienie_7_UL_FR, Wystapienie_10_UR_FR",2,0.0831,0.2331,0.8777,76
+Wystapienie_2_DL_LU,2,0.0808,0.2177,0.8195,69
+Wystapienie_12_UR_XP,2,0.3439,0.212,0.7982,286
+Wystapienie_11_UR_LU,2,0.2959,0.2084,0.7848,242
+"Wystapienie_10_UR_FR, Wystapienie_12_UR_XP",2,0.0823,0.2012,0.7576,65
+Wystapienie_8_UL_LU,2,0.2506,0.1974,0.743,194
+Wystapienie_6_DR_XP,2,0.0936,0.1853,0.6976,68
+Wystapienie_2_DL_LU,1,0.0808,0.2303,0.6849,73
+Wystapienie_9_UL_XP,2,0.2875,0.1729,0.6508,195
+Wystapienie_5_DR_LU,2,0.1402,0.1636,0.6161,90
+"Wystapienie_8_UL_LU, Wystapienie_11_UR_LU",2,0.1721,0.1467,0.5522,99
+"Wystapienie_3_DL_XP, Wystapienie_12_UR_XP",2,0.0732,0.1394,0.5247,40
+"Wystapienie_7_UL_FR, Wystapienie_12_UR_XP",2,0.0637,0.132,0.497,33
+Wystapienie_10_UR_FR,1,0.1953,0.1619,0.4815,124
+"Wystapienie_9_UL_XP, Wystapienie_12_UR_XP",2,0.0895,0.1254,0.472,44
+Wystapienie_1_DL_FR,1,0.1945,0.1533,0.4561,117
+Wystapienie_4_DR_FR,1,0.1295,0.1417,0.4215,72
+Wystapienie_12_UR_XP,1,0.3439,0.1386,0.4123,187
+Wystapienie_11_UR_LU,1,0.2959,0.1266,0.3766,147
+"Wystapienie_8_UL_LU, Wystapienie_9_UL_XP",2,0.0765,0.0933,0.3514,28
+"Wystapienie_9_UL_XP, Wystapienie_11_UR_LU",2,0.0823,0.0867,0.3264,28
+Wystapienie_7_UL_FR,1,0.1537,0.0995,0.2959,60
+Wystapienie_8_UL_LU,1,0.2506,0.0946,0.2814,93
+"Wystapienie_11_UR_LU, Wystapienie_12_UR_XP",2,0.118,0.0648,0.2439,30
+Wystapienie_5_DR_LU,1,0.1402,0.0818,0.2433,45
+Wystapienie_3_DL_XP,1,0.1741,0.0805,0.2395,55
+"Wystapienie_5_DR_LU, Wystapienie_11_UR_LU",2,0.0579,0.0529,0.199,12
+"Wystapienie_8_UL_LU, Wystapienie_12_UR_XP",2,0.104,0.049,0.1846,20
+"Wystapienie_5_DR_LU, Wystapienie_12_UR_XP",2,0.0548,0.0465,0.1751,10
+Wystapienie_6_DR_XP,1,0.0936,0.0218,0.0648,8

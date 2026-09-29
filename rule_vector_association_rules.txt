@@ -1,0 +1,164 @@
+ASSOCIATION RULES FROM rule_occurrence_vectors.csv
+
+Transactions: 3923
+MIN_SUPPORT: 0.001
+MIN_CONFIDENCE: 0.05
+MAX_ANTECEDENT_SIZE: 4
+
+DEFINICJE
+  support(A->C)     = P(A i C) = ile wierszy ma A i C / N
+  confidence(A->C)  = P(C|A) = support(A,C) / support(A)
+  prior / a priori  = P(A) = support samego warunku A
+
+Znaleziono reguł: 1578
+
+1. CS_11_UR_LU; CS_12_UR_XP; CS_8_UL_LU => TARGET=3
+   support=0.0790, confidence=1.0000, prior=0.0790 (310/3923)
+
+2. CS_11_UR_LU; CS_8_UL_LU; CS_9_UL_XP => TARGET=3
+   support=0.0548, confidence=1.0000, prior=0.0548 (215/3923)
+
+3. CS_11_UR_LU; CS_12_UR_XP; CS_9_UL_XP => TARGET=3
+   support=0.0408, confidence=1.0000, prior=0.0408 (160/3923)
+
+4. CS_11_UR_LU; CS_5_DR_LU; CS_8_UL_LU => TARGET=3
+   support=0.0387, confidence=1.0000, prior=0.0387 (152/3923)
+
+5. CS_10_UR_FR; CS_12_UR_XP; CS_7_UL_FR => TARGET=3
+   support=0.0362, confidence=1.0000, prior=0.0362 (142/3923)
+
+6. CS_12_UR_XP; CS_8_UL_LU; CS_9_UL_XP => TARGET=3
+   support=0.0357, confidence=1.0000, prior=0.0357 (140/3923)
+
+7. CS_11_UR_LU; CS_12_UR_XP; CS_8_UL_LU; Regula=neutral->sadness => TARGET=3
+   support=0.0336, confidence=1.0000, prior=0.0336 (132/3923)
+
+8. CS_11_UR_LU; CS_12_UR_XP; CS_8_UL_LU; Regula=sadness->neutral => TARGET=3
+   support=0.0321, confidence=1.0000, prior=0.0321 (126/3923)
+
+9. CS_11_UR_LU; CS_12_UR_XP; CS_5_DR_LU => TARGET=3
+   support=0.0270, confidence=1.0000, prior=0.0270 (106/3923)
+
+10. CS_11_UR_LU; CS_12_UR_XP; CS_8_UL_LU; CS_9_UL_XP => TARGET=3
+   support=0.0270, confidence=1.0000, prior=0.0270 (106/3923)
+
+11. CS_10_UR_FR; CS_3_DL_XP; CS_7_UL_FR => TARGET=3
+   support=0.0250, confidence=1.0000, prior=0.0250 (98/3923)
+
+12. CS_11_UR_LU; CS_3_DL_XP; CS_8_UL_LU => TARGET=3
+   support=0.0245, confidence=1.0000, prior=0.0245 (96/3923)
+
+13. CS_11_UR_LU; CS_1_DL_FR; CS_8_UL_LU => TARGET=3
+   support=0.0242, confidence=1.0000, prior=0.0242 (95/3923)
+
+14. CS_11_UR_LU; CS_6_DR_XP; CS_8_UL_LU => TARGET=3
+   support=0.0240, confidence=1.0000, prior=0.0240 (94/3923)
+
+15. CS_12_UR_XP; CS_5_DR_LU; CS_8_UL_LU => TARGET=3
+   support=0.0224, confidence=1.0000, prior=0.0224 (88/3923)
+
+16. CS_11_UR_LU; CS_12_UR_XP; CS_3_DL_XP => TARGET=3
+   support=0.0222, confidence=1.0000, prior=0.0222 (87/3923)
+
+17. CS_11_UR_LU; CS_8_UL_LU; CS_9_UL_XP; Regula=neutral->sadness => TARGET=3
+   support=0.0214, confidence=1.0000, prior=0.0214 (84/3923)
+
+18. CS_11_UR_LU; CS_12_UR_XP; CS_6_DR_XP => TARGET=3
+   support=0.0212, confidence=1.0000, prior=0.0212 (83/3923)
+
+19. CS_12_UR_XP; CS_3_DL_XP; CS_8_UL_LU => TARGET=3
+   support=0.0201, confidence=1.0000, prior=0.0201 (79/3923)
+
+20. CS_12_UR_XP; CS_3_DL_XP; CS_7_UL_FR => TARGET=3
+   support=0.0196, confidence=1.0000, prior=0.0196 (77/3923)
+
+21. CS_11_UR_LU; CS_5_DR_LU; CS_8_UL_LU; Regula=neutral->sadness => TARGET=3
+   support=0.0196, confidence=1.0000, prior=0.0196 (77/3923)
+
+22. CS_10_UR_FR; CS_12_UR_XP; CS_7_UL_FR; Regula=anger->neutral => TARGET=3
+   support=0.0189, confidence=1.0000, prior=0.0189 (74/3923)
+
+23. CS_11_UR_LU; CS_8_UL_LU; CS_9_UL_XP; Regula=sadness->neutral => TARGET=3
+   support=0.0186, confidence=1.0000, prior=0.0186 (73/3923)
+
+24. CS_10_UR_FR; CS_12_UR_XP; CS_9_UL_XP => TARGET=3
+   support=0.0184, confidence=1.0000, prior=0.0184 (72/3923)
+
+25. CS_11_UR_LU; CS_12_UR_XP; CS_5_DR_LU; CS_8_UL_LU => TARGET=3
+   support=0.0184, confidence=1.0000, prior=0.0184 (72/3923)
+
+26. CS_11_UR_LU; CS_5_DR_LU; CS_8_UL_LU; Regula=sadness->neutral => TARGET=3
+   support=0.0184, confidence=1.0000, prior=0.0184 (72/3923)
+
+27. CS_12_UR_XP; CS_1_DL_FR; CS_8_UL_LU => TARGET=3
+   support=0.0178, confidence=1.0000, prior=0.0178 (70/3923)
+
+28. CS_11_UR_LU; CS_12_UR_XP; CS_1_DL_FR => TARGET=3
+   support=0.0176, confidence=1.0000, prior=0.0176 (69/3923)
+
+29. CS_12_UR_XP; CS_3_DL_XP; CS_9_UL_XP => TARGET=3
+   support=0.0176, confidence=1.0000, prior=0.0176 (69/3923)
+
+30. CS_12_UR_XP; CS_5_DR_LU; CS_9_UL_XP => TARGET=3
+   support=0.0176, confidence=1.0000, prior=0.0176 (69/3923)
+
+31. CS_10_UR_FR; CS_12_UR_XP; CS_3_DL_XP => TARGET=3
+   support=0.0173, confidence=1.0000, prior=0.0173 (68/3923)
+
+32. CS_11_UR_LU; CS_12_UR_XP; CS_3_DL_XP; CS_8_UL_LU => TARGET=3
+   support=0.0171, confidence=1.0000, prior=0.0171 (67/3923)
+
+33. CS_11_UR_LU; CS_5_DR_LU; CS_6_DR_XP => TARGET=3
+   support=0.0166, confidence=1.0000, prior=0.0166 (65/3923)
+
+34. CS_12_UR_XP; CS_2_DL_LU; CS_5_DR_LU => TARGET=3
+   support=0.0163, confidence=1.0000, prior=0.0163 (64/3923)
+
+35. CS_11_UR_LU; CS_4_DR_FR; CS_8_UL_LU => TARGET=3
+   support=0.0161, confidence=1.0000, prior=0.0161 (63/3923)
+
+36. CS_12_UR_XP; CS_5_DR_LU; CS_6_DR_XP => TARGET=3
+   support=0.0158, confidence=1.0000, prior=0.0158 (62/3923)
+
+37. CS_10_UR_FR; CS_12_UR_XP; CS_7_UL_FR; Regula=neutral->anger => TARGET=3
+   support=0.0150, confidence=1.0000, prior=0.0150 (59/3923)
+
+38. CS_12_UR_XP; CS_6_DR_XP; CS_8_UL_LU => TARGET=3
+   support=0.0145, confidence=1.0000, prior=0.0145 (57/3923)
+
+39. CS_10_UR_FR; CS_11_UR_LU; CS_12_UR_XP => TARGET=3
+   support=0.0143, confidence=1.0000, prior=0.0143 (56/3923)
+
+40. CS_11_UR_LU; CS_12_UR_XP; CS_5_DR_LU; Regula=neutral->sadness => TARGET=3
+   support=0.0143, confidence=1.0000, prior=0.0143 (56/3923)
+
+41. CS_12_UR_XP; CS_6_DR_XP; CS_9_UL_XP => TARGET=3
+   support=0.0140, confidence=1.0000, prior=0.0140 (55/3923)
+
+42. CS_11_UR_LU; CS_2_DL_LU; CS_8_UL_LU => TARGET=3
+   support=0.0138, confidence=1.0000, prior=0.0138 (54/3923)
+
+43. CS_2_DL_LU; CS_5_DR_LU; Regula=neutral->sadness => TARGET=3
+   support=0.0138, confidence=1.0000, prior=0.0138 (54/3923)
+
+44. CS_12_UR_XP; CS_3_DL_XP; CS_5_DR_LU => TARGET=3
+   support=0.0135, confidence=1.0000, prior=0.0135 (53/3923)
+
+45. CS_5_DR_LU; CS_6_DR_XP; CS_8_UL_LU => TARGET=3
+   support=0.0135, confidence=1.0000, prior=0.0135 (53/3923)
+
+46. CS_11_UR_LU; CS_12_UR_XP; CS_9_UL_XP; Regula=neutral->sadness => TARGET=3
+   support=0.0135, confidence=1.0000, prior=0.0135 (53/3923)
+
+47. CS_10_UR_FR; CS_3_DL_XP; CS_7_UL_FR; Regula=anger->neutral => TARGET=3
+   support=0.0133, confidence=1.0000, prior=0.0133 (52/3923)
+
+48. CS_10_UR_FR; CS_12_UR_XP; CS_8_UL_LU => TARGET=3
+   support=0.0125, confidence=1.0000, prior=0.0125 (49/3923)
+
+49. CS_11_UR_LU; CS_6_DR_XP; CS_9_UL_XP => TARGET=3
+   support=0.0125, confidence=1.0000, prior=0.0125 (49/3923)
+
+50. CS_1_DL_FR; CS_5_DR_LU; Regula=neutral->sadness => TARGET=3
+   support=0.0125, confidence=1.0000, prior=0.0125 (49/3923)
+
