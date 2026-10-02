@@ -1,3 +1,0 @@
-Fleiss Kappa: -0.0779338539
-Rows: 932
-Judges: 12
